@@ -13,9 +13,9 @@ void draw() {
   background(252, 251, 227);
   int isPink = int(random(2));
   if (isPink == 1) {
-    fill(209, 30, 72); 
+    fill(243,197,48); 
   } else {
-    fill(0, 0, 255); 
+    fill(249,66,10); 
   }
   for (int i=0; i<numBabies; i++) {
     ellipse(babies[i].x, babies[i].y, 20, 20);  

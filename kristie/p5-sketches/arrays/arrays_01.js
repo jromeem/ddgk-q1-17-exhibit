@@ -16,18 +16,19 @@ function setup() {
 
 function draw() {
   background(252, 251, 227);
-    
+   
     var isPink = int(random(2));
     
     if (isPink == 1) {
-        fill(209, 30, 72);
+        fill(243,197,48);
     } else {
         // ornage ?
-        fill(255, 0, 0);
+        fill(249,66,10);
     }
 
   for (var i = 0; i < numBabies; i++) {
     //fill(random(0,255),66,10);
     ellipse(babies[i].x, babies[i].y, 20, 20);
+      
   }
 }

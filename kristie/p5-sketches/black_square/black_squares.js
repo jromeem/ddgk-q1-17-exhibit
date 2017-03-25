@@ -7,7 +7,7 @@ var rectX2 = 5;
 var speed2 = 0.5;
 
 var rectX3 = 10;
-var speed3 = 1;
+var speed3 = 0.1;
 
 var rectX4 = 100;
 var speed4 = 5;
@@ -23,20 +23,17 @@ function draw() {
     //fill(249,66,10);
     
     //4blue
-    fill(44, 164, 200);
-    rect(height/2, rectX4, 100, 300);
+    fill(19,29,63);
+    rect(rectX4, height/2, 300, 10);
     
-    //3orange
-    fill(249,66,10);
-    rect(height/3, rectX2, 100, 300);
+    fill(19,29,63);
+    rect(rectX3, height/3, 300, 10);
     
-    //2blue
-    fill(44, 164, 200);
-    rect(height/6, rectX, 100, 300);
+    fill(19,29,63);
+    rect(rectX2, height/4, 300, 10);
     
-    //1orange
-    fill(249,66,10);
-    rect(height/106, rectX3, 100, 300);
+    fill(19,29,63);
+    rect(rectX, height/6, 300, 10);
     
     
     rectX = rectX + speed;

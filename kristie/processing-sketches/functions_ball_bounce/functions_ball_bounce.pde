@@ -2,11 +2,11 @@
 int ballX = 50;
 int speed = 3;
 
-function setup() {
+void setup() {
   size(800, 800);
 }
 
-function draw() {
+void draw() {
   background(252, 251, 227);
   noStroke();
   fill(44, 164, 200);
