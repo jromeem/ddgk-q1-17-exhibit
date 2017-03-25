@@ -20,4 +20,11 @@ void draw() {
   for (int i=0; i<numBabies; i++) {
     ellipse(babies[i].x, babies[i].y, 20, 20);  
   }
+
+  // add frames here
+  if (frameCount < 600) {
+    saveFrame("f####.png");
+  } else {
+    exit();
+  }
 }

@@ -21,4 +21,9 @@ void draw() {
   }
   
   // add frames here
+  if (frameCount < 600) {
+    saveFrame("f####.png");
+  } else {
+    exit();
+  }
 }
